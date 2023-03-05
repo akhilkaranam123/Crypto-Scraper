@@ -36,6 +36,7 @@ def crypto_scrape(currency_name,filename,filepath):
             Day.append(datetime.strptime(i.get_text(),'%Y-%m-%d').date())
         df['Date'] = Day[1:]
         upload_s3(filename,filepath)
+        df.to_csv(currency_name+'.csv')
     except:
         print('Currency name is not right')
         raise
