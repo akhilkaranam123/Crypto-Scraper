@@ -1,6 +1,8 @@
 import boto3
 import scraper
 
+# Created a function to upload the csv to s3 folder using boto3.
+
 def upload_s3(filename,filepath):
         s3_client = boto3.client(service_name='s3', region_name='ap-southeast-1',
                          aws_access_key_id='AKIAXI34O22FIZ5N253E',
