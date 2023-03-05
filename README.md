@@ -2,7 +2,7 @@ The Average of Bitcoin over last 30 days is 1622.17
 
 The Average of Ehtereum over last 30 days is 23239.8
 
-The Corr of the Bitcoin and Ethereum is 0.91
+The Correlation of the Bitcoin and Ethereum is 0.91
 
 There are no outliers in the prices of Ehtereum or Bitcoin over last 30 days
 
