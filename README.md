@@ -1,3 +1,6 @@
+You can run the main file by cloning this repository in Visual Studio Code and then run the main.py file. This will save the file in local directory and will then upload to s3.
+
+
 The Average of Bitcoin over last 30 days is 1622.17
 
 The Average of Ehtereum over last 30 days is 23239.8
