@@ -7,6 +7,8 @@ import seaborn as sns
 from datetime import datetime
 import sys
 
+#Crypto_Scrape function to scrape data from coingecko website. We can give the Crypto currency as arguments and also the filename and filepath to upload to s3
+
 def crypto_scrape(currency_name,filename,filepath):
     try:
         url = 'https://www.coingecko.com/en/coins/'+currency_name.lower()+'/historical_data#panel'
